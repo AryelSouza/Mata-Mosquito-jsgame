@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MATA MOSQUITO</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="game.js"></script>
+
+</head>
+<body onresize="adjustSize()">
+
+
+	<div class="painel">
+		<div class="lives">
+			<img id="h1" src="imagens/full_heart.png">
+			<img id="h2" src="imagens/full_heart.png">
+			<img id="h3" src="imagens/full_heart.png">
+		</div>
+
+
+		<div class="stopwatch">Tempo restante: <span id="stopwatch"></span></div>
+	</div>
+
+
+	<script>
+
+		document.getElementById('stopwatch').innerHTML = time
+
+		randomizer()
+
+		var createMosquito = setInterval(function(){
+			randomizer()
+
+		},crtmosquitotime)
+	</script>
+</body>
+</html>
