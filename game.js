@@ -9,11 +9,11 @@ var level = window.location.search
 level = level.replace('?','')
 
 if(level === 'Normal') {
-	crtmosquitotime = 1000
+	crtmosquitotime = 2000
 }else if(level === 'Hard'){
-	crtmosquitotime = 850
+	crtmosquitotime = 2000
 }else if(level === ' Chuck Norris'){
-	crtmosquitotime = 900
+	crtmosquitotime = 2000
 }
 
 
