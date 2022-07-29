@@ -3,7 +3,7 @@ var width = 0
 var hearts = 1
 var time = 30
 
-var crtmosquitotime = 1000
+var crtmosquitotime = 2000
 
 var level = window.location.search
 level = level.replace('?','')
