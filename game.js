@@ -13,7 +13,7 @@ if(level === 'Normal') {
 }else if(level === 'Hard'){
 	crtmosquitotime = 850
 }else if(level === ' Chuck Norris'){
-	crtmosquitotime = 500
+	crtmosquitotime = 900
 }
 
 
