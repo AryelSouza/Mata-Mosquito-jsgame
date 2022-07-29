@@ -3,17 +3,17 @@ var width = 0
 var hearts = 1
 var time = 30
 
-var crtmosquitotime = 2000
+var crtmosquitotime = 1000
 
 var level = window.location.search
 level = level.replace('?','')
 
 if(level === 'Normal') {
-	crtmosquitotime = 2000
+	crtmosquitotime = 1000
 }else if(level === 'Hard'){
-	crtmosquitotime = 2000
+	crtmosquitotime = 1000
 }else if(level === ' Chuck Norris'){
-	crtmosquitotime = 2000
+	crtmosquitotime = 1000
 }
 
 
